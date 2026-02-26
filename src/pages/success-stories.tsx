@@ -6,7 +6,7 @@ export const SuccessStoriesPage = () => {
     ${PageHeader(
         'Success Stories',
         'Celebrating the professional breakthroughs of SNSCPHS graduates',
-        '/static/images/pharmacy-success.jpg',
+        '/static/images/success/success-bg.png',
         'Success Stories'
     )}
 
@@ -28,106 +28,110 @@ export const SuccessStoriesPage = () => {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="stories-grid">
                 
-                <!-- Card 1 (Academic) -->
-                <div class="story-card bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-300 flex flex-col" data-category="academic">
-                    <div class="h-64 bg-gray-200 relative">
-                        <div class="absolute inset-0 flex items-center justify-center text-gray-400">
-                            <i class="fas fa-image text-5xl"></i>
-                        </div>
+                <!-- Card 1: Indo–US International Conference (Academic / Innovation) -->
+                <div class="story-card bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-300 flex flex-col group" data-category="academic">
+                    <div class="h-64 relative overflow-hidden">
+                        <img src="/static/images/success/indo-us-conference.png" alt="Indo–US International Conference at SNSCPHS" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-5 left-5 bg-blue-500 text-white text-xs font-bold px-3 py-1.5 rounded-full z-10 shadow-sm uppercase tracking-wide">
                             Academic
                         </span>
                     </div>
                     <div class="p-8 flex-grow flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4 leading-snug hover:text-primary-600 transition cursor-pointer">GPAT 2025 All India Rankers</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4 leading-snug hover:text-primary-600 transition cursor-pointer">
+                            Indo–US International Conference 2026
+                        </h3>
                         <p class="text-gray-600 text-sm mb-6 leading-relaxed flex-grow">
-                            We are immensely proud of our final year B.Pharm students who secured top ranks in the Graduate Pharmacy Aptitude Test (GPAT) 2025, paving their way to premier national research institutes for their postgraduate studies.
+                            SNS College of Pharmacy and Health Sciences successfully hosted an Indo–US International Conference on “Global Trends and Challenges in Pharmaceutical Sciences and Nanotechnology” on 5 February 2026, in collaboration with APP – bringing global experts and researchers onto our campus.
                         </p>
                         <div class="mt-auto">
                             <div class="flex items-center text-xs text-gray-500 font-medium mb-4">
                                 <i class="far fa-calendar-alt mr-2 text-gray-400 text-sm"></i> February 2026
                             </div>
-                            <a href="#" class="text-primary-600 font-bold hover:text-primary-700 inline-flex items-center text-sm group">
-                                Read More <i class="fas fa-arrow-right ml-2 text-xs group-hover:translate-x-1 transition-transform"></i>
-                            </a>
+                            <span class="text-primary-600 font-bold inline-flex items-center text-sm">
+                                Conference Highlight
+                            </span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Card 2 (Innovation) -->
-                <div class="story-card bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-300 flex flex-col" data-category="innovation">
-                    <div class="h-64 bg-gray-200 relative">
-                        <div class="absolute inset-0 flex items-center justify-center text-gray-400">
-                            <i class="fas fa-image text-5xl"></i>
-                        </div>
-                        <span class="absolute top-5 left-5 bg-purple-500 text-white text-xs font-bold px-3 py-1.5 rounded-full z-10 shadow-sm uppercase tracking-wide">
-                            Innovation
-                        </span>
-                    </div>
-                    <div class="p-8 flex-grow flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4 leading-snug hover:text-primary-600 transition cursor-pointer">Best Formulation Design Award at IPC</h3>
-                        <p class="text-gray-600 text-sm mb-6 leading-relaxed flex-grow">
-                            Our Pharm.D students bagged the 'Best Novel Formulation Design' award at the Indian Pharmaceutical Congress for their groundbreaking research on targeted drug delivery systems using nanotechnology.
-                        </p>
-                        <div class="mt-auto">
-                            <div class="flex items-center text-xs text-gray-500 font-medium mb-4">
-                                <i class="far fa-calendar-alt mr-2 text-gray-400 text-sm"></i> January 2026
-                            </div>
-                            <a href="#" class="text-primary-600 font-bold hover:text-primary-700 inline-flex items-center text-sm group">
-                                Read More <i class="fas fa-arrow-right ml-2 text-xs group-hover:translate-x-1 transition-transform"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3 (Community) -->
-                <div class="story-card bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-300 flex flex-col" data-category="community">
-                    <div class="h-64 bg-gray-200 relative">
-                        <div class="absolute inset-0 flex items-center justify-center text-gray-400">
-                            <i class="fas fa-image text-5xl"></i>
-                        </div>
-                        <span class="absolute top-5 left-5 bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-full z-10 shadow-sm uppercase tracking-wide">
-                            Community
-                        </span>
-                    </div>
-                    <div class="p-8 flex-grow flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4 leading-snug hover:text-primary-600 transition cursor-pointer">Mega Health & Medication Counseling Camp</h3>
-                        <p class="text-gray-600 text-sm mb-6 leading-relaxed flex-grow line-clamp-4">
-                            Over 500 rural residents benefited from the free health camp organized by our D.Pharm and B.Pharm students. They provided vital medication counseling, blood pressure screening, and distributed essential healthcare kits, demonstrating our commitment to social responsibility.
-                        </p>
-                        <div class="mt-auto">
-                            <div class="flex items-center text-xs text-gray-500 font-medium mb-4">
-                                <i class="far fa-calendar-alt mr-2 text-gray-400 text-sm"></i> December 2025
-                            </div>
-                            <a href="#" class="text-primary-600 font-bold hover:text-primary-700 inline-flex items-center text-sm group">
-                                Read More <i class="fas fa-arrow-right ml-2 text-xs group-hover:translate-x-1 transition-transform"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 4 (Sports) -->
-                <div class="story-card bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-300 flex flex-col" data-category="sports">
-                    <div class="h-64 bg-gray-200 relative">
-                        <div class="absolute inset-0 flex items-center justify-center text-gray-400">
-                            <i class="fas fa-image text-5xl"></i>
-                        </div>
+                <!-- Card 2: Intramurals’22 Sports Prize Distribution (Sports) -->
+                <div class="story-card bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-300 flex flex-col group" data-category="sports">
+                    <div class="h-64 relative overflow-hidden">
+                        <img src="/static/images/success/intramurals-sports.png" alt="Intramurals’22 Sports Prize Distribution at SNSCPHS" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-5 left-5 bg-green-500 text-white text-xs font-bold px-3 py-1.5 rounded-full z-10 shadow-sm uppercase tracking-wide">
                             Sports
                         </span>
                     </div>
                     <div class="p-8 flex-grow flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4 leading-snug hover:text-primary-600 transition cursor-pointer">Inter-College Pharmacy Cricket Champions</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4 leading-snug hover:text-primary-600 transition cursor-pointer">
+                            Intramurals’22 – Sports Prize Distribution
+                        </h3>
                         <p class="text-gray-600 text-sm mb-6 leading-relaxed flex-grow">
-                            The SNSCPHS men's cricket team brought home the trophy at the State Level Inter-Pharmacy Tournament! Their teamwork and dedication on the field reflects the holistic development fostered at our institution.
+                            Glimpses into SNSCPHS Intramurals’22, where our students were honoured for their outstanding performance and team spirit during the campus sports events and athletics competitions.
                         </p>
                         <div class="mt-auto">
                             <div class="flex items-center text-xs text-gray-500 font-medium mb-4">
-                                <i class="far fa-calendar-alt mr-2 text-gray-400 text-sm"></i> November 2025
+                                <i class="far fa-calendar-alt mr-2 text-gray-400 text-sm"></i> 2022–23
                             </div>
-                            <a href="#" class="text-primary-600 font-bold hover:text-primary-700 inline-flex items-center text-sm group">
-                                Read More <i class="fas fa-arrow-right ml-2 text-xs group-hover:translate-x-1 transition-transform"></i>
-                            </a>
+                            <span class="text-primary-600 font-bold inline-flex items-center text-sm">
+                                Campus Sports Success
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: National Pharmacy Education Day – ANVESHAN 2024 (Academic) -->
+                <div class="story-card bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-300 flex flex-col group" data-category="academic">
+                    <div class="h-64 relative overflow-hidden">
+                        <img src="/static/images/success/national-pharmacy-education-day.png" alt="National Pharmacy Education Day ANVESHAN 2024 at SNSCPHS" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-5 left-5 bg-purple-500 text-white text-xs font-bold px-3 py-1.5 rounded-full z-10 shadow-sm uppercase tracking-wide">
+                            Academic
+                        </span>
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4 leading-snug hover:text-primary-600 transition cursor-pointer">
+                            National Pharmacy Education Day – ANVESHAN 2024
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-6 leading-relaxed flex-grow">
+                            SNS College of Pharmacy and Health Sciences celebrated National Pharmacy Education Day “ANVESHAN 2024”, commemorating the birth anniversary of the father of Pharmacy. Dr. K. Manisenthilkumar, COO of Royal Care Super Specialty Hospital, addressed our students with an inspiring session on emerging opportunities in pharmacy.
+                        </p>
+                        <div class="mt-auto">
+                            <div class="flex items-center text-xs text-gray-500 font-medium mb-4">
+                                <i class="far fa-calendar-alt mr-2 text-gray-400 text-sm"></i> 2024
+                            </div>
+                            <span class="text-primary-600 font-bold inline-flex items-center text-sm">
+                                Academic Milestone
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: Kho-Kho Runner-Up Achievement (Sports) -->
+                <div class="story-card bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-300 flex flex-col group" data-category="sports">
+                    <div class="h-64 relative overflow-hidden">
+                        <img src="/static/images/success/kho-kho-runner-up.png" alt="Kho-Kho Runner-Up team of SNSCPHS" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-5 left-5 bg-emerald-600 text-white text-xs font-bold px-3 py-1.5 rounded-full z-10 shadow-sm uppercase tracking-wide">
+                            Sports
+                        </span>
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4 leading-snug hover:text-primary-600 transition cursor-pointer">
+                            Kho-Kho Runner-Up – State-Level Meet
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-6 leading-relaxed flex-grow">
+                            We are proud to announce that the SNSCPHS girls’ Kho-Kho team secured the Runner-Up position at the 3rd State-Level Inter-Collegiate Sports Meet hosted by The United College of Pharmacy, Periyanaickenpalayam, Coimbatore.
+                        </p>
+                        <div class="mt-auto">
+                            <div class="flex items-center text-xs text-gray-500 font-medium mb-4">
+                                <i class="far fa-calendar-alt mr-2 text-gray-400 text-sm"></i> Recent Achievement
+                            </div>
+                            <span class="text-primary-600 font-bold inline-flex items-center text-sm">
+                                Sports Achievement
+                            </span>
                         </div>
                     </div>
                 </div>

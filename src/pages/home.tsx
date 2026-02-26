@@ -6,8 +6,8 @@ export const HomePage = () => {
     <section class="relative text-white py-24 lg:py-32 overflow-hidden">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="/static/images/pharm-building.jpg" alt="SNS Pharmacy Campus" class="w-full h-full object-cover">
-            <div class="absolute inset-0 bg-gradient-to-r from-black/10 via-black/10 to-transparent"></div>
+            <img src="/static/images/pharm-building-home.png" alt="SNS College of Pharmacy & Health Sciences" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
         </div>
         
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

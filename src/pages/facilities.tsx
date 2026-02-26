@@ -70,12 +70,12 @@ export const FacilitiesPage = () => {
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 ${[
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-1.jpg', alt: 'Pharmaceutics Lab', title: 'Pharmaceutics Lab', desc: 'Focuses on the formulation and development of various dosage forms like tablets, capsules, and liquid orals using modern technology.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-2.jpg', alt: 'Pharmaceutical Chemistry Lab', title: 'Pharmaceutical Chemistry', desc: 'Equipped for the synthesis and analysis of chemical medicinal substances, fostering expertise in drug composition and behavior.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-3.jpg', alt: 'Pharmacology Lab', title: 'Pharmacology Lab', desc: 'Dedicated to studying the effects of drugs on biological systems, providing critical insights into drug action and safety.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-4.jpg', alt: 'Pharmacognosy Lab', title: 'Pharmacognosy Lab', desc: 'Focuses on medicines derived from natural sources, identifying and analyzing medicinal plants and herbal formulations.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-5.jpg', alt: 'Computer Lab', title: 'Computer & Tech Hub', desc: 'Latest computers with modern pharmaceutical software, drug databases, and complete internet connectivity.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/library.jpg', alt: 'Central Library', title: 'Central Library', desc: 'A vast collection of pharmaceutical books, journals, and digital resources to support academic excellence and research.' },
+            { img: '/static/images/facilities/pharmaceutics-lab.png', alt: 'Pharmaceutics Lab', title: 'Pharmaceutics Lab', desc: 'Focuses on the formulation and development of various dosage forms like tablets, capsules, and liquid orals using modern technology.' },
+            { img: '/static/images/facilities/pharmaceutical-chemistry.png', alt: 'Pharmaceutical Chemistry Lab', title: 'Pharmaceutical Chemistry', desc: 'Equipped for the synthesis and analysis of chemical medicinal substances, fostering expertise in drug composition and behavior.' },
+            { img: '/static/images/facilities/pharmacology-lab.png', alt: 'Pharmacology Lab', title: 'Pharmacology Lab', desc: 'Dedicated to studying the effects of drugs on biological systems, providing critical insights into drug action and safety.' },
+            { img: '/static/images/facilities/pharmacognosy-lab.png', alt: 'Pharmacognosy Lab', title: 'Pharmacognosy Lab', desc: 'Focuses on medicines derived from natural sources, identifying and analyzing medicinal plants and herbal formulations.' },
+            { img: '/static/images/facilities/computer-tech-hub.png', alt: 'Computer & Tech Hub', title: 'Computer & Tech Hub', desc: 'Latest computers with modern pharmaceutical software, drug databases, and complete internet connectivity.' },
+            { img: '/static/images/facilities/central-library.png', alt: 'Central Library', title: 'Central Library', desc: 'A vast collection of pharmaceutical books, journals, and digital resources to support academic excellence and research.' },
         ].map(l => `
                 <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500 bg-white">
                     <div class="h-56 overflow-hidden relative">

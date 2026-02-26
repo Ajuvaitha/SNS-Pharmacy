@@ -6,7 +6,7 @@ export const EventsPage = () => {
     ${PageHeader(
         'Events & Celebrations',
         'Witness the vibrant life and professional journey at SNSCPHS',
-        '/static/images/pharmacy-events.jpg',
+        '/static/images/events/events-bg.png',
         'Events'
     )}
 
@@ -19,90 +19,90 @@ export const EventsPage = () => {
                 <!-- Event 1: World Pharmacist Day -->
                 <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
                     <div class="absolute inset-0">
-                        <img src="https://snscphs.org/wp-content/uploads/2023/04/event-1.jpg" alt="World Pharmacist Day" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/static/images/events/world-pharmacist-day.png" alt="World Pharmacist Day" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6">
                         <h3 class="text-white font-bold text-2xl">World Pharmacist Day</h3>
-                        <p class="text-white/80 text-sm mt-1">Celebrating the vital role of pharmacists in healthcare.</p>
+                        <p class="text-white/80 text-sm mt-1">Honouring the pharmacists of SNSCPHS who safeguard medicine safety, patient care, and community health.</p>
                     </div>
                     <div class="absolute top-4 left-4">
                         <span class="bg-primary-600 text-white px-3 py-1 rounded-full text-xs font-bold">Celebration</span>
                     </div>
                 </div>
 
-                <!-- Event 2: White Coat Ceremony -->
+                <!-- Event 2: Pongal Celebration -->
                 <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
                     <div class="absolute inset-0">
-                        <img src="https://snscphs.org/wp-content/uploads/2023/04/event-2.jpg" alt="White Coat Ceremony" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/static/images/events/pongal-celebration.png" alt="Pongal Celebration" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6">
-                        <h3 class="text-white font-bold text-2xl">White Coat Ceremony</h3>
-                        <p class="text-white/80 text-sm mt-1">Welcoming our first-year students to the profession.</p>
+                        <h3 class="text-white font-bold text-2xl">Pongal Celebration</h3>
+                        <p class="text-white/80 text-sm mt-1">Traditional festivities on campus bringing together students and faculty to celebrate gratitude and togetherness.</p>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold">Academic</span>
+                        <span class="bg-amber-600 text-white px-3 py-1 rounded-full text-xs font-bold">Festival</span>
                     </div>
                 </div>
 
-                <!-- Event 3: Innovation Pitch -->
+                <!-- Event 3: Onam Celebration -->
                 <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
                     <div class="absolute inset-0">
-                        <img src="https://snscphs.org/wp-content/uploads/2023/04/event-3.jpg" alt="Innovation Pitch" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/static/images/events/onam-celebration.png" alt="Onam Celebration" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6">
-                        <h3 class="text-white font-bold text-2xl">Pharmacy Innovation Pitch</h3>
-                        <p class="text-white/80 text-sm mt-1">Students presenting Design Thinking solutions for healthcare.</p>
+                        <h3 class="text-white font-bold text-2xl">Onam Celebration</h3>
+                        <p class="text-white/80 text-sm mt-1">Colourful traditional attire, cultural performances, and community spirit marking the festival of harmony.</p>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold">iHub</span>
+                        <span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold">Culture</span>
                     </div>
                 </div>
 
-                <!-- Event 4: Clinical Training -->
+                <!-- Event 4: Go Green Club -->
                 <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
                     <div class="absolute inset-0">
-                        <img src="https://snscphs.org/wp-content/uploads/2023/04/event-4.jpg" alt="Clinical Training" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/static/images/events/go-green-club.png" alt="Go Green Club" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6">
-                        <h3 class="text-white font-bold text-2xl">Clinical Ward Rounds</h3>
-                        <p class="text-white/80 text-sm mt-1">Pharm.D students participating in bedside clinical sessions.</p>
+                        <h3 class="text-white font-bold text-2xl">Go Green Club</h3>
+                        <p class="text-white/80 text-sm mt-1">Tree plantation and sustainability drives that nurture environmental responsibility among pharmacy students.</p>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-xs font-bold">Clinical</span>
+                        <span class="bg-lime-600 text-white px-3 py-1 rounded-full text-xs font-bold">Eco Initiative</span>
                     </div>
                 </div>
 
-                <!-- Event 5: Industry Visit -->
+                <!-- Event 5: Navaratri Celebrations -->
                 <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
                     <div class="absolute inset-0">
-                        <img src="https://snscphs.org/wp-content/uploads/2023/04/event-5.jpg" alt="Industry Visit" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/static/images/events/navaratri.png" alt="Navaratri Celebrations" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6">
-                        <h3 class="text-white font-bold text-2xl">Pharma Industry Visit</h3>
-                        <p class="text-white/80 text-sm mt-1">Exploring large-scale manufacturing and quality control.</p>
+                        <h3 class="text-white font-bold text-2xl">Navaratri Celebrations</h3>
+                        <p class="text-white/80 text-sm mt-1">Energetic cultural performances and traditional attire celebrating the spirit of Navaratri on campus.</p>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-orange-600 text-white px-3 py-1 rounded-full text-xs font-bold">Industry</span>
+                        <span class="bg-pink-600 text-white px-3 py-1 rounded-full text-xs font-bold">Festival</span>
                     </div>
                 </div>
 
-                <!-- Event 6: Alumni Meet -->
+                <!-- Event 6: National Pharmacy Week -->
                 <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
                     <div class="absolute inset-0">
-                        <img src="https://snscphs.org/wp-content/uploads/2023/04/event-6.jpg" alt="Alumni Meet" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/static/images/events/national-pharmacy-week.png" alt="National Pharmacy Week" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6">
-                        <h3 class="text-white font-bold text-2xl">Alumni Connect</h3>
-                        <p class="text-white/80 text-sm mt-1">Interacting with professionals working in top pharma MNCs.</p>
+                        <h3 class="text-white font-bold text-2xl">National Pharmacy Week</h3>
+                        <p class="text-white/80 text-sm mt-1">Awareness programs, expert talks, and student activities highlighting the impact of pharmacy on society.</p>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-teal-600 text-white px-3 py-1 rounded-full text-xs font-bold">Network</span>
+                        <span class="bg-teal-600 text-white px-3 py-1 rounded-full text-xs font-bold">Professional</span>
                     </div>
                 </div>
 

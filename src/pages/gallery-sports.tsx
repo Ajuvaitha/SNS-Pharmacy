@@ -11,28 +11,28 @@ export const GalleryPage = () => {
         'Gallery'
     )}
 
-    <!-- Life @ SNSCPHS -->
+    <!-- Life at SNS College of Pharmacy (Campus Experience) -->
     <section class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <span class="text-primary-600 font-bold tracking-wider uppercase text-sm mb-2 block">Campus Life</span>
-                <h2 class="text-4xl font-bold text-gray-900 mb-3">Life @ SNSCPHS</h2>
-                <p class="text-xl text-gray-600">Where learning meets joy, and every day is an adventure in pharmaceutical science!</p>
+                <span class="text-primary-600 font-bold tracking-wider uppercase text-sm mb-2 block">Campus Experience</span>
+                <h2 class="text-4xl font-bold text-gray-900 mb-3">Life at SNS College of Pharmacy</h2>
+                <p class="text-xl text-gray-600">Research-driven learning, design thinking projects, and a vibrant campus environment.</p>
             </div>
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
                 ${[
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/gallery-1.jpg', title: 'Research Oriented Learning', desc: 'Students engaged in pharmaceutical research and innovative lab practices that push boundaries.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/gallery-2.jpg', title: 'Design Thinking Projects', desc: 'Collaborative sessions focused on patient-centered healthcare and novel drug delivery solutions.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/gallery-3.jpg', title: 'Vibrant Campus Life', desc: 'A positive, inclusive atmosphere that fosters holistic student growth beyond the classroom.' },
-        ].map(c => `
-                <div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
-                    <div class="h-64 overflow-hidden relative">
+            { img: '/static/images/gallery/research-learning.png', title: 'Research Oriented Learning', desc: 'Students engaged in real-time pharmaceutical research, seminars, and collaborative discussions.' },
+            { img: '/static/images/gallery/design-thinking-projects.png', title: 'Design Thinking Projects', desc: 'Hands-on projects using GenAI-powered Design Thinking to solve healthcare challenges.' },
+            { img: '/static/images/gallery/vibrant-campus-life.png', title: 'Vibrant Campus Life', desc: 'Dynamic classroom interactions, peer learning, and an energetic academic atmosphere.' },
+        ].map(item => `
+                <div class="group rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 bg-white">
+                    <div class="h-56 overflow-hidden relative">
                         <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
-                        <img src="${c.img}" alt="${c.title}" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
+                        <img src="${item.img}" alt="${item.title}" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
                     </div>
-                    <div class="p-6 bg-white">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">${c.title}</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">${c.desc}</p>
+                    <div class="p-5">
+                        <h4 class="font-bold text-gray-900 mb-2">${item.title}</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">${item.desc}</p>
                     </div>
                 </div>`).join('')}
             </div>
@@ -67,37 +67,6 @@ export const GalleryPage = () => {
             <div class="flex flex-wrap justify-center gap-3">
                 ${['Reception', 'Smart Classrooms', 'Wi-Fi Campus', 'CCTV Security', 'Solar Powered', 'Digital Library', 'Herbal Garden', 'Seminar Hall'].map(t => `
                 <span class="inline-flex items-center bg-white border border-gray-200 text-gray-700 px-5 py-2 rounded-full text-sm font-semibold shadow-sm hover:border-primary-400 hover:text-primary-700 transition">${t}</span>`).join('')}
-            </div>
-        </div>
-    </section>
-
-    <!-- State-of-the-Art Pharmacy Labs -->
-    <section class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <span class="text-primary-600 font-bold tracking-wider uppercase text-sm mb-2 block">Lab Infrastructure</span>
-                <h2 class="text-4xl font-bold text-gray-900 mb-3">State-of-the-Art Laboratories</h2>
-                <p class="text-xl text-gray-600">Cutting-edge pharmaceutical labs for hands-on learning and research</p>
-            </div>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-                ${[
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-1.jpg', title: 'Pharmaceutics Lab', desc: 'Modern apparatus for hands-on drug formulation and dosage form development.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-2.jpg', title: 'Pharmaceutical Chemistry', desc: 'Fully equipped for synthesis and analysis of medicinal chemical substances.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-3.jpg', title: 'Pharmacology Lab', desc: 'Advanced equipment for studying drug effects on biological systems.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-4.jpg', title: 'Pharmacognosy Lab', desc: 'Complete setup for identifying medicinal plants and herbal formulations.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/lab-5.jpg', title: 'Computer & Tech Lab', desc: 'Latest computers with pharmaceutical software and internet connectivity.' },
-            { img: 'https://snscphs.org/wp-content/uploads/2023/04/library.jpg', title: 'Central Library', desc: 'Vast collection of pharma books, journals, and e-resources.' },
-        ].map(l => `
-                <div class="group rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-500">
-                    <div class="h-48 overflow-hidden relative">
-                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition z-10"></div>
-                        <img src="${l.img}" alt="${l.title}" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700">
-                    </div>
-                    <div class="p-5 bg-white">
-                        <h4 class="font-bold text-gray-900 mb-1">${l.title}</h4>
-                        <p class="text-gray-600 text-sm leading-relaxed">${l.desc}</p>
-                    </div>
-                </div>`).join('')}
             </div>
         </div>
     </section>
