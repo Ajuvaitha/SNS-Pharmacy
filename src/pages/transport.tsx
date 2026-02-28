@@ -11,25 +11,23 @@ export const TransportPage = () => {
     )}
 
     <!-- Fleet Stats Banner -->
-    <section class="py-16 bg-[#fff7ed]">
+    <section class="py-12 bg-primary-600 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-2">Why Parents Trust Our Transport</h2>
-                <p class="text-gray-600 text-lg">Fleet of 20 buses covering major areas of Coimbatore</p>
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold mb-2">Why Parents Trust Our Transport</h2>
+                <p class="text-primary-100 text-lg">Fleet of 20 buses covering major areas of Coimbatore</p>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 ${[
-            { cardBg: 'bg-orange-50', iconBg: 'bg-orange-100', iconColor: 'text-orange-600', icon: 'fas fa-bus', stat: '20 Buses', desc: 'Full fleet of air-conditioned buses' },
-            { cardBg: 'bg-green-50', iconBg: 'bg-green-100', iconColor: 'text-green-600', icon: 'fas fa-map-marked-alt', stat: 'GPS Tracking', desc: 'Real-time location monitoring' },
-            { cardBg: 'bg-purple-50', iconBg: 'bg-purple-100', iconColor: 'text-purple-600', icon: 'fas fa-id-card', stat: 'RFID Cards', desc: 'Safe boarding system' },
-            { cardBg: 'bg-yellow-50', iconBg: 'bg-yellow-100', iconColor: 'text-yellow-700', icon: 'fas fa-snowflake', stat: 'Air Conditioned', desc: 'All buses fully AC' },
+            { icon: 'fas fa-bus', stat: '20 Buses', desc: 'Full fleet of air-conditioned buses' },
+            { icon: 'fas fa-map-marked-alt', stat: 'GPS Tracking', desc: 'Real-time location monitoring' },
+            { icon: 'fas fa-id-card', stat: 'RFID Cards', desc: 'Safe boarding system' },
+            { icon: 'fas fa-snowflake', stat: 'Air Conditioned', desc: 'All buses fully AC' },
         ].map(s => `
-                <div class="${s.cardBg} rounded-2xl p-7 text-center shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 border border-black/5">
-                    <div class="w-14 h-14 ${s.iconBg} rounded-full mx-auto flex items-center justify-center mb-4">
-                        <i class="${s.icon} text-2xl ${s.iconColor}"></i>
-                    </div>
-                    <div class="text-lg font-extrabold text-gray-900 mb-1">${s.stat}</div>
-                    <div class="text-sm text-gray-600">${s.desc}</div>
+                <div class="bg-white/10 backdrop-blur rounded-2xl p-6 text-center border border-white/20 hover:bg-white/20 transition">
+                    <i class="${s.icon} text-3xl mb-3 block"></i>
+                    <div class="text-xl font-bold mb-1">${s.stat}</div>
+                    <div class="text-sm text-primary-100">${s.desc}</div>
                 </div>`).join('')}
             </div>
         </div>
@@ -181,20 +179,20 @@ export const TransportPage = () => {
         </div>
     </section>
 
-    <!-- Need Transport Info (light style) -->
-    <section class="py-16 bg-white">
+    <!-- Colored CTA Box (SNS Academy style) -->
+    <section class="py-16" style="background: linear-gradient(135deg, #1a6b3a 0%, #22c55e 100%);">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-4xl font-extrabold text-gray-900 mb-3">Need Transport Information?</h2>
-            <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-                Contact our transport coordinator for route details, availability, and fees.
+            <h2 class="text-4xl font-bold text-white mb-4">Safe Travel, Every Day</h2>
+            <p class="text-lg text-green-100 mb-8 max-w-2xl mx-auto">
+                Join SNS College of Pharmacy and enjoy a safe, reliable and comfortable commute with our dedicated transport fleet.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+919629937861"
-                   class="inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white font-bold rounded-full hover:bg-primary-700 transition-colors duration-300 shadow-lg">
-                    <i class="fas fa-phone mr-2"></i> Call: +91 96299 37861
+                   class="inline-flex items-center justify-center px-8 py-4 bg-white text-green-700 font-bold rounded-full hover:bg-green-50 transition-colors duration-300 shadow-lg">
+                    <i class="fas fa-phone mr-2"></i> Call Transport Office
                 </a>
                 <a href="/contact"
-                   class="inline-flex items-center justify-center px-8 py-4 border-2 border-primary-600 text-primary-700 font-bold rounded-full hover:bg-primary-50 transition-colors duration-300">
+                   class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-green-700 transition-colors duration-300">
                     Send Inquiry
                 </a>
             </div>

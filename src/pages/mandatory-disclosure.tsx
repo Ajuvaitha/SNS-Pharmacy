@@ -6,7 +6,7 @@ export const MandatoryDisclosurePage = () => {
     ${PageHeader(
         'Mandatory Disclosure',
         'Transparency and Stewardship in Pharmaceutical Education',
-        '/static/images/sns-hero-1.png',
+        '/static/images/sns-college-building.png',
         'Mandatory Disclosure'
     )}
 

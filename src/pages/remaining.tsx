@@ -265,7 +265,7 @@ export const AboutPage = () => {
     ${PageHeader(
         'About SNSCPHS',
         'India\'s First Design Thinking Pharmacy College',
-        '/static/images/hero.png',
+        '/static/images/sns-college-building.png',
         'About Us'
     )}
 
@@ -273,7 +273,7 @@ export const AboutPage = () => {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div class="relative">
-                    <img src="https://snscphs.org/wp-content/uploads/2023/04/about-img.jpg" alt="SNS Pharmacy College" class="relative rounded-2xl shadow-2xl w-full object-cover h-[500px]">
+                    <img src="/static/images/sns-about-team.png" alt="SNS Pharmacy College" class="relative rounded-2xl shadow-2xl w-full object-cover h-[500px]">
                 </div>
                 
                 <div>
@@ -311,7 +311,7 @@ export const ContactPage = () => {
     ${PageHeader(
         'Contact SNSCPHS',
         'Reach out to Coimbatore\'s leading Pharmacy College',
-        '/static/images/hero.png',
+        '/static/images/sns-college-building.png',
         'Contact Us'
     )}
 
@@ -379,7 +379,7 @@ export const AdmissionsPage = () => {
     ${PageHeader(
         'Admissions 2024-25',
         'Begin your journey towards a specialized career in Pharmacy',
-        '/static/images/sns-hero-1.png',
+        '/static/images/sns-college-building.png',
         'Admissions'
     )}
 
